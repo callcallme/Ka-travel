@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: aqua;
+}
+#header{
+
+    background-image: url('assets/the-urban-landscape-1698285.png');
+    background-size: cover;
+    /* width: 1024px; */
+    height: 500px;
+}
+h1{
+    margin: 0px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: '微軟正黑體';
+}
+#header .span{
+    text-align: center;
+    
+}
+#header .span>.change{
+    width: 452px;
+    height: 48px;
+    margin-top:100px;
+    opacity: 0.8;
+    font-size: 24px;
+    font-weight: bold;
+    /*移除箭頭樣式*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    /*改變右邊箭頭樣式*/
+    background: url("assets/icons_down.png") no-repeat right center transparent;
+    border:0px;    
+    padding-left:2px;
+    padding-right:40px;
+    background-color:#F6F7F7;
+    color:gray;
+  }
+  
+  /*IE隱藏箭頭樣式*/
+  #header .span>.change::-ms-expand { 
+    display: none; 
+  }
+  
+  #header .span>.change:focus{
+    box-shadow: 0 0 5px 2px #467BF4;    
+  }
+#header .hotfurl{
+   background-color: white;
+   width: 800px;
+   height: 150px;
+   margin:auto;
+   margin-top: 200px;
+   text-align: center;
+   border-radius: 10px;
+   
+   
+}
+h2{
+  text-align: left;
+  font-family: '微軟正黑體';
+  line-height: 70px;
+}
+#header .hotfurl>input{
+  width: 130px;
+  height: 42px;
+  margin-right: 5%;
+  margin-bottom: 60px;
+  border-radius: 10%;
+  color: white;
+  font-size:20px ;
+  font-family: '微軟正黑體';
+}
+#header input:hover{
+  cursor: pointer; 
+
+}
+  
+#header .btn1{
+  background-color: #8A82CC;
+}
+#header .btn2{
+  background-color: #FFA782 ;
+}
+#header .btn3{
+  background-color: #F5D105 ;
+}
+#header .btn4{
+  background-color: #559AC8 ;
+}
